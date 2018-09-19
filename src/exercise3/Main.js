@@ -1,0 +1,15 @@
+"use strict";
+exports.__esModule = true;
+var Book_1 = require("./Book");
+var book1 = new Book_1.Book(1, "HTML Book", 1000);
+book1.save();
+var book2 = new Book_1.Book(2, "CSS Book", 2000);
+book2.save();
+var book3 = new Book_1.Book(3, "JS Book", 3000);
+book3.save();
+var book4 = Book_1.Book.find(1);
+book4.title = "HTML5 Book";
+book4.save();
+var book5 = Book_1.Book.find(2);
+book5.destroy();
+console.log(Book_1.Book.all());
