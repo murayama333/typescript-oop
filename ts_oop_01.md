@@ -244,7 +244,7 @@ export class Ship {
 }
 ```
 
-lesson3フォルダにMain.tsファイルを作成します。
+lesson3フォルダにMain.tsファイルを作成します。
 
 ```ts
 import { Ship } from "./Ship";
