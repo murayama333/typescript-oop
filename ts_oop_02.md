@@ -208,7 +208,7 @@ Bookクラスには次のコンストラクタがあります。
 Bookクラスには次のメソッドがあります。
 
 |メソッド|引数|戻り値型|static|
-|:--|:--|:--|
+|:--|:--|:--|:--|
 |all|<br>|Array<Book>|static|
 |find|id: number|Book|static|
 |save|<br>|void|<br>|
